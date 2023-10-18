@@ -1,3 +1,9 @@
+import PropTypes from "prop-types";
+
+Main.propTypes = {
+  products: PropTypes.array.isRequired,
+};
+
 function Main({ products }) {
   return (
     <>
