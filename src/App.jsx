@@ -76,7 +76,7 @@ export default function App() {
     },
   ];
   return (
-    <Router>
+    <Router basename="/INFO3130-Midterm-F2023">
       <Nav />
       <Routes>
         <Route path="/" element={<Main products={products} />} />
