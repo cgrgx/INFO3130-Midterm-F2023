@@ -1,5 +1,5 @@
 {
-  "homepage": "https://cgrgx.github.io/info3130-midterm-f2023/",
+  "homepage": "https://github.com/cgrgx/info3130-midterm.git",
   "name": "info3130-midterm-f2023",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -r https://github.com/cgrgx/INFO3130-Midterm-F2023.git",
+    "deploy": "gh-pages -d dist ",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview --port 8080"
   },
