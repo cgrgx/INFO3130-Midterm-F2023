@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Main from "./components/Main";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
@@ -76,7 +76,7 @@ export default function App() {
     },
   ];
   return (
-    <Router basename="/INFO3130-Midterm-F2023">
+    <Router>
       <Nav />
       <Routes>
         <Route path="/" element={<Main products={products} />} />
