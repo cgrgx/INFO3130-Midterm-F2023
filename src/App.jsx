@@ -35,14 +35,13 @@ export default function App() {
     },
     {
       id: 3,
-      name: "Converse Men's Chuck Taylor All Star Ox Uni Hightop Sneakers - Black",
-      price: "$79.95",
+      name: "Nike Men's Air Jordan 1 Basketball Shoes",
+      price: "$155.95",
       sizes: ["8", "9", "10", "11", "12"],
-      imageSrc: sneaker3,
-      imageAlt:
-        "Converse Men's Chuck Taylor All Star Ox Uni Hightop Sneakers - Black",
+      imageSrc: sneaker6,
+      imageAlt: "Nike Men's Air Jordan 1 Basketball Shoes",
       details:
-        "The Chuck Taylor All Star is the shoe that started it all for Converse. These hightop sneakers have the iconic canvas uppers and vulcanized rubber outsoles. There've been countless imitations - the star-centered patch, rubber toe cap, toe bumper and striping tell you these are the real thing.",
+        "Inspired by the original AJ1, this mid-top edition maintains the iconic look you love while choice colors and crisp leather give it a distinct identity.",
     },
     {
       id: 4,
@@ -66,13 +65,14 @@ export default function App() {
     },
     {
       id: 6,
-      name: "Nike Men's Air Jordan 1 Basketball Shoes",
-      price: "$155.95",
+      name: "Converse Men's Chuck Taylor All Star Ox Uni Hightop Sneakers - Black",
+      price: "$79.95",
       sizes: ["8", "9", "10", "11", "12"],
-      imageSrc: sneaker6,
-      imageAlt: "Nike Men's Air Jordan 1 Basketball Shoes",
+      imageSrc: sneaker3,
+      imageAlt:
+        "Converse Men's Chuck Taylor All Star Ox Uni Hightop Sneakers - Black",
       details:
-        "Inspired by the original AJ1, this mid-top edition maintains the iconic look you love while choice colors and crisp leather give it a distinct identity.",
+        "The Chuck Taylor All Star is the shoe that started it all for Converse. These hightop sneakers have the iconic canvas uppers and vulcanized rubber outsoles. There've been countless imitations - the star-centered patch, rubber toe cap, toe bumper and striping tell you these are the real thing.",
     },
   ];
   return (
